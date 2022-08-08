@@ -700,8 +700,6 @@ img {
   top: 50%;
   left: 50%;
 
-  display: flex;
-  justify-content: flex-end;
   padding: 8px;
 
   transform: translate(-50%, -50%) scale(1);
@@ -712,10 +710,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
   width: 30px;
   height: 30px;
   border-radius: 50%;
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+.speaker-form {
+  margin-top: 40px;
 }
