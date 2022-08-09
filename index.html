@@ -436,7 +436,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop"  data-modal>  /* is-hidden*/
       <div class="modal">
         <button data-modal-close type="button" class="modal-btn">
           <svg class="icon" width="11px" height="11px">
@@ -445,26 +445,32 @@
         </button>
         
         <form class="speaker-form">
-          <p>Оставьте свои данные, мы вам перезвоним</p>
+          <p class="speaker-form-par">Оставьте свои данные, мы вам перезвоним</p>
           <ul class="list">
             <li class="item">
-                 <label for="name" >Имя</label>
-          <input type="text" name="name" id="name"/>
+                 <label for="name" class="label" >Имя</label>
+          <input type="text" name="name" id="name" class="input"/>
             </li>
              <li class="item">
-                 <label for="tel" >Телефон</label>
-          <input type="tel" name="tel" id="tel"/>
+                 <label for="tel" class="label" >Телефон</label>
+          <input type="tel" name="tel" id="tel" class="input"/>
             </li>
              <li class="item">
-                 <label for="mail" >Почта</label>
-          <input type="email" name="mail" autocomplete="on" id="mail"/>
+                 <label for="mail" class="label" >Почта</label>
+          <input type="email" name="mail" autocomplete="on" id="mail" class="input"/>
             </li>
           </ul>
-          <label for="comment">Коментарий</label>
-          <textarea name="" id="comment"  rows="10" placeholder="Введите текс" ></textarea>
+          <div class="form">
+            <label for="comment"  >Коментарий</label>
+          <textarea name="" id="comment"  rows="5" placeholder="Введите текс" class="comment-label"></textarea>
           <input type="checkbox" name="" id="">
-          <label for="">Соглашаюсь с рассылкой и принимаю</label> 
+          </div>
+          <div class="form-check">
+              <label for="">Соглашаюсь с рассылкой и принимаю</label> 
           <a href="">Условия договора</a>
+
+          </div>
+        
 
 
        
