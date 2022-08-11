@@ -481,7 +481,7 @@ img {
 }
 
 .aside-subscription {
-  margin-left: 93px;
+  margin-left: auto;
 }
 .aside-form {
   display: flex;
@@ -741,7 +741,9 @@ img {
   margin-bottom: 28px;
 }
 .speaker-form .input {
+  width: 100%;
   height: 40px;
+  padding-left: 40px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -751,6 +753,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
+  display: block;
 
   color: #757575;
 }
@@ -807,4 +810,22 @@ img {
   background-image: url(../images/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
+}
+
+.check-input:focus + .check-icon {
+  border-color: var(--accent-color);
+}
+
+.check-link {
+  color: var(--accent-color);
+}
+
+.speacer-box {
+  position: relative;
+}
+.speacer-box-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
 }

@@ -448,21 +448,57 @@
           <p class="speaker-form-par">Оставьте свои данные, мы вам перезвоним</p>
           <ul class="list">
             <li class="item">
-                 <label for="name" class="label" >Имя</label>
-          <input type="text" name="name" id="name" class="input"/>
+              <div>
+                  <label for="name" class="label">Имя</label>
+                  <div class="speacer-box">
+                    <input type="text" name="name" id="name" class="input"/>
+                    <svg class="speacer-box-icon" width="18px" height="18px">
+                      <use href="./images/symbol-icon2.svg#icon-person-black"></use>
+                    </svg>
+
+                  </div>
+                  
+              </div>
+           
+            </li>
+            <li class="item">
+            <div>
+                
+                <label for="tel" class="label" >Телефон</label>
+                <div class="speacer-box">
+                  <input type="tel" name="tel" id="tel" class="input"/>
+                  <svg class="speacer-box-icon" width="18px" height="18px">
+                      <use href="./images/symbol-icon2.svg#icon-phone-black"></use>
+                    </svg>
+                </div>
+                
+            </div>
+           
             </li>
              <li class="item">
-                 <label for="tel" class="label" >Телефон</label>
-          <input type="tel" name="tel" id="tel" class="input"/>
-            </li>
-             <li class="item">
-                 <label for="mail" class="label" >Почта</label>
-          <input type="email" name="mail" autocomplete="on" id="mail" class="input"/>
-            </li>
-             <li class="item">
-              <label for="comment" class="label">Коментарий</label>
-          <textarea name="" id="comment"  rows="5" placeholder="Введите текс" class="comment-label"></textarea>
+            <div>
+                 
+                <label for="mail" class="label" >Почта</label>
+                <div class="speacer-box">
+                  <input type="email" name="mail" autocomplete="on" id="mail" class="input"/>
+                  <svg class="speacer-box-icon" width="18px" height="18px">
+                      <use href="./images/symbol-icon2.svg#icon-email-black"></use>
+                    </svg>
+                </div>
+                
+            </div>
          
+            </li>
+            <li class="item">
+            <div>
+
+                <label for="comment" class="label">Коментарий</label>
+                <div>
+                  <textarea name="" id="comment"  rows="5" placeholder="Введите текс" class="comment-label"></textarea>
+                </div>
+                
+
+            </div>        
               </li>
           </ul>
        
@@ -472,7 +508,7 @@
                 <input class="check-input" type="checkbox" name=""/>
                  <span class="check-icon" width="16px" height="15px" ></span>
                   Соглашаюсь с рассылкой и принимаю 
-                  <a href="" class="check-link link">Условия договора</a>
+                  <a href="" class="check-link">Условия договора</a>
               </label> 
           
 
