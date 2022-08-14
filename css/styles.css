@@ -736,7 +736,7 @@ img {
 .speaker-form-par {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 
   font-weight: 700;
   font-size: 20px;
@@ -826,6 +826,7 @@ img {
 
 .form-check {
   margin-bottom: 30px;
+  text-align: center;
 
   font-size: 14px;
   line-height: 1.71px;
@@ -846,6 +847,7 @@ img {
 }
 .check-icon {
   display: inline-block;
+  vertical-align: middle;
   width: 16px;
   height: 15px;
   border: 2px solid var(--secondery-text-color);
